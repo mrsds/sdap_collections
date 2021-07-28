@@ -1,3 +1,4 @@
+    collections:
       - id: M2AF_REGIONAL_LABASIN_CH4_fluxes
         path: s3://carbon-jpl/data/regional/vineet_example_labasin_ch4/flux_vineet_sdap.nc
         priority: 1
@@ -10,5 +11,5 @@
           variable: fluxes
         slices:
           time: 1
-          i: 30
-          j: 30
+          lat: 30
+          lon: 30
