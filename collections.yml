@@ -13,3 +13,185 @@
           time: 1
           lat: 30
           lon: 30
+      - id: M2AF_GLOBAL_COAL_CH4_emission
+        path: s3://carbon-jpl/data/global/cusworth_20210831_sdap/global_partition_coal_sdap.nc
+        priority: 1
+        forward-processing-priority: 1
+        projection: Grid
+        dimensionNames:
+          time: time
+          latitude: lat
+          longitude: lon
+          variable: CH4_emission
+        slices:
+          time: 1
+          lat: 30
+          lon: 30
+      - id: M2AF_GLOBAL_FARM_CH4_emission
+        path: s3://carbon-jpl/data/global/cusworth_20210831_sdap/global_partition_farm_sdap.nc
+        priority: 1
+        forward-processing-priority: 1
+        projection: Grid
+        dimensionNames:
+          time: time
+          latitude: lat
+          longitude: lon
+          variable: CH4_emission
+        slices:
+          time: 1
+          lat: 30
+          lon: 30
+      - id: M2AF_GLOBAL_FIRE_CH4_emission
+        path: s3://carbon-jpl/data/global/cusworth_20210831_sdap/global_partition_fire_sdap.nc
+        priority: 1
+        forward-processing-priority: 1
+        projection: Grid
+        dimensionNames:
+          time: time
+          latitude: lat
+          longitude: lon
+          variable: CH4_emission
+        slices:
+          time: 1
+          lat: 30
+          lon: 30
+      - id: M2AF_GLOBAL_GAS_CH4_emission
+        path: s3://carbon-jpl/data/global/cusworth_20210831_sdap/global_partition_gas_sdap.nc
+        priority: 1
+        forward-processing-priority: 1
+        projection: Grid
+        dimensionNames:
+          time: time
+          latitude: lat
+          longitude: lon
+          variable: CH4_emission
+        slices:
+          time: 1
+          lat: 30
+          lon: 30
+      - id: M2AF_GLOBAL_GEO_CH4_emission
+        path: s3://carbon-jpl/data/global/cusworth_20210831_sdap/global_partition_geo_sdap.nc
+        priority: 1
+        forward-processing-priority: 1
+        projection: Grid
+        dimensionNames:
+          time: time
+          latitude: lat
+          longitude: lon
+          variable: CH4_emission
+        slices:
+          time: 1
+          lat: 30
+          lon: 30
+      - id: M2AF_GLOBAL_LIVESTOCK_CH4_emission
+        path: s3://carbon-jpl/data/global/cusworth_20210831_sdap/global_partition_livestock_sdap.nc
+        priority: 1
+        forward-processing-priority: 1
+        projection: Grid
+        dimensionNames:
+          time: time
+          latitude: lat
+          longitude: lon
+          variable: CH4_emission
+        slices:
+          time: 1
+          lat: 30
+          lon: 30
+      - id: M2AF_GLOBAL_OIL_CH4_emission
+        path: s3://carbon-jpl/data/global/cusworth_20210831_sdap/global_partition_oil_sdap.nc
+        priority: 1
+        forward-processing-priority: 1
+        projection: Grid
+        dimensionNames:
+          time: time
+          latitude: lat
+          longitude: lon
+          variable: CH4_emission
+        slices:
+          time: 1
+          lat: 30
+          lon: 30
+      - id: M2AF_GLOBAL_WASTE_CH4_emission
+        path: s3://carbon-jpl/data/global/cusworth_20210831_sdap/global_partition_waste_sdap.nc
+        priority: 1
+        forward-processing-priority: 1
+        projection: Grid
+        dimensionNames:
+          time: time
+          latitude: lat
+          longitude: lon
+          variable: CH4_emission
+        slices:
+          time: 1
+          lat: 30
+          lon: 30
+      - id: M2AF_GLOBAL_WETLAND_CH4_emission
+        path: s3://carbon-jpl/data/global/cusworth_20210831_sdap/global_partition_wetland_sdap.nc
+        priority: 1
+        forward-processing-priority: 1
+        projection: Grid
+        dimensionNames:
+          time: time
+          latitude: lat
+          longitude: lon
+          variable: CH4_emission
+        slices:
+          time: 1
+          lat: 30
+          lon: 30
+      - id: M2AF_GLOBAL_GOSAT_Emissions
+        path: s3://carbon-jpl/data/global/harvard_global_gosat_2019/
+        priority: 1
+        forward-processing-priority: 1
+        projection: Grid
+        dimensionNames:
+          time: time
+          latitude: lat
+          longitude: lon
+          variable: Emissions
+        slices:
+          time: 1
+          lat: 30
+          lon: 30
+      - id: Global_Fuel_Exploitation_Inventory_GFEI_CH4_v2_coal
+        path: s3://carbon-jpl/data/global/harvard_global_sectors/
+        priority: 1
+        forward-processing-priority: 1
+        projection: Grid
+        dimensionNames:
+          time: time
+          latitude: lat
+          longitude: lon
+          variable: coal_emis_ch4
+        slices:
+          time: 1
+          lat: 100
+          lon: 100
+      - id: Global_Fuel_Exploitation_Inventory_GFEI_CH4_v2_gas
+        path: s3://carbon-jpl/data/global/harvard_global_sectors/
+        priority: 1
+        forward-processing-priority: 1
+        projection: Grid
+        dimensionNames:
+          time: time
+          latitude: lat
+          longitude: lon
+          variable: gas_emis_ch4
+        slices:
+          time: 1
+          lat: 100
+          lon: 100
+      - id: Global_Fuel_Exploitation_Inventory_GFEI_CH4_v2_oil
+        path: s3://carbon-jpl/data/global/harvard_global_sectors/
+        priority: 1
+        forward-processing-priority: 1
+        projection: Grid
+        dimensionNames:
+          time: time
+          latitude: lat
+          longitude: lon
+          variable: oil_emis_ch4
+        slices:
+          time: 1
+          lat: 100
+          lon: 100
